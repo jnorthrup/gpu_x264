@@ -1,0 +1,9 @@
+.depend
+common/mc.o
+common/predict.o
+config.h
+config.mak
+matroska.o
+muxers.o
+x264.o
+x264.pc
