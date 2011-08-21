@@ -1,0 +1,27 @@
+MacOS X < 10.6:
+
+• not supported
+
+MacOS X Snow Leopard:
+
+1) Install Xcode Development Tools
+2) Install MacPorts from:
+		http://www.macports.org/install.php
+3) Open Terminal
+4) Perform commands:
+		sudo port install yasm
+		sudo port install binutils
+		sudo port install wget
+		sudo port install xorg-libXaw
+		sudo port install mjpegtools
+5) run setup.sh
+
+Linux:
+
+1) check for needed packages:
+		• gcc
+		• yasm
+		• binutils
+		• wget
+		• mjpegtools (png2yuv,y4mtoyuv)
+2) run setup.sh
