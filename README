@@ -1,0 +1,12 @@
+this appears to be a splice from libx264.67.so which was not introduced to 
+mainline x264 development.
+
+with some amount of manual downloading and assembly i was able to encode 600 frames 
+of big buck bunny per the original demo script at 151 fps on a 3.3 ghz stock i980x 
+core i7 on linux 3.1pre with radeon 6970 @ 910mhz/300Ram-Mhz + AMD APP 2.5.  (typically only 1x encoding by multicore cpu alone.)
+
+credit given to original project authors http://li5.ziti.uni-heidelberg.de/x264gpu
+
+James Northrup
+
+
